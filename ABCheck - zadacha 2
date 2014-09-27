@@ -1,10 +1,10 @@
-def ABCheck(str):
+def ABCheck(text):
 
   i = 0
 
-  while i < ( len(str) - 4)
+  while i < ( len(text) - 4):
     
-    if str[i] == "a" and str[i + 4] == "b":
+    if text[i] == "a" and text[i + 4] == "b":
       return True
     
     i += 1
