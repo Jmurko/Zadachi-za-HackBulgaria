@@ -1,0 +1,14 @@
+def dashInsert(num):
+
+  text = str(num)
+  newstr = text[0]
+  
+  for x in range(len(text) - 1):
+    
+    if int(text[x]) % 2 != 0 and int(text[x + 1]) % 2 != 0:
+      newstr += "-" text[x + 1]
+    else:
+      newstr += text[x + 1]
+  
+  return newstr
+  
