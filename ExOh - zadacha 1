@@ -1,9 +1,9 @@
-def ExOh(str):
+def ExOh(text):
   
   xcount = 0
   ocount = 0
   
-  for c in str:
+  for c in text:
     
     if c == "x":
       xcount += 1
